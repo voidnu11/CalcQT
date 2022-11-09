@@ -1,0 +1,317 @@
+
+#menubar {
+    max-height: 0px;
+}
+
+QFrame {
+    border: none;
+}
+
+QObject[objectName^="btn"],
+QObject[objectName^="btn"]:hover {
+    background: rgba(255, 255, 255, 10);
+}
+
+QObject[objectName^="btn"]:pressed {
+    background: rgba(255, 255, 255, 20);
+}
+
+QObject[objectName^="pbtn"],
+QObject[objectName^="pbtn"]:hover {
+    background: rgba(255, 255, 255, 50);
+}
+
+QObject[objectName^="pbtn"]:pressed {
+    background: rgba(255, 255, 255, 60);
+}
+
+QObject[objectName^="rbtn"],
+QObject[objectName^="rbtn"]:hover {
+    background: #311E44;
+}
+
+QObject[objectName^="rbtn"]:pressed {
+    background: #220A34;
+}
+
+QObject[objectName^="hbtn"],
+QObject[objectName^="btn"],
+QObject[objectName^="btn"]:hover,
+QObject[objectName^="btn"]:pressed,
+QObject[objectName^="pbtn"],
+QObject[objectName^="pbtn"]:hover,
+QObject[objectName^="pbtn"]:pressed,
+QObject[objectName^="rbtn"],
+QObject[objectName^="rbtn"]:hover,
+QObject[objectName^="rbtn"]:pressed {
+    background-position: 50%;
+    color: transparent;
+    border: none;
+}
+
+QObject[objectName^="hbtn"] {
+    max-height: 0px;
+    max-width: 0px;
+}
+
+#pbtn_0 {
+    background-image: url(:/svg/num0);
+    background-repeat: no-repeat;
+}
+
+#pbtn_1 {
+    background-image: url(:/svg/num1);
+}
+
+#pbtn_2 {
+    background-image: url(:/svg/num2);
+}
+
+#pbtn_3 {
+    background-image: url(:/svg/num3);
+}
+
+#pbtn_4 {
+    background-image: url(:/svg/num4);
+}
+
+#pbtn_5 {
+    background-image: url(:/svg/num5);
+}
+
+#pbtn_6 {
+    background-image: url(:/svg/num6);
+}
+
+#pbtn_7 {
+    background-image: url(:/svg/num7);
+}
+
+#pbtn_8 {
+    background-image: url(:/svg/num8);
+}
+
+#pbtn_9 {
+    background-image: url(:/svg/num9);
+}
+
+#pbtn_dot {
+    background-image: url(:/svg/dot);
+}
+
+#rbtn_div {
+    background-image: url(:/svg/div);
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(24, 11, 53, 255), stop:0.824 rgba(54, 10, 45, 255), stop:1 rgba(55, 10, 40, 255));
+}
+
+#rbtn_div:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(24, 11, 53, 200), stop:0.824 rgba(54, 10, 45, 200), stop:1 rgba(55, 10, 40, 200));
+}
+
+#rbtn_mul {
+    background-image: url(:/svg/mul);
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(43, 11, 47, 255), stop:0.523 rgba(50, 12, 40, 255), stop:0.958 rgba(75, 7, 40, 255));
+}
+
+#rbtn_mul:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(43, 11, 47, 200), stop:0.523 rgba(50, 12, 40, 200), stop:0.958 rgba(75, 7, 40, 200));
+}
+
+#rbtn_sub {
+    background-image: url(:/svg/sub);
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(48, 11, 41, 255), stop:0.317 rgba(61, 9, 40, 255), stop:0.739 rgba(77, 7, 43, 255), stop:1 rgba(67, 8, 45, 255));
+}
+
+#rbtn_sub:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(48, 11, 41, 200), stop:0.317 rgba(61, 9, 40, 200), stop:0.739 rgba(77, 7, 43, 200), stop:1 rgba(67, 8, 45, 200));
+}
+
+#rbtn_add {
+    background-image: url(:/svg/add);
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.042 rgba(64, 8, 40, 255), stop:0.276 rgba(78, 7, 44, 255), stop:1 rgba(60, 10, 47, 255));
+}
+
+#rbtn_add:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.042 rgba(64, 8, 40, 200), stop:0.276 rgba(78, 7, 44, 200), stop:1 rgba(60, 10, 47, 200));
+}
+
+#rbtn_res {
+    background-image: url(:/svg/res);
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(80, 7, 40, 255), stop:0.176 rgba(75, 8, 53, 255), stop:1 rgba(46, 12, 42, 255));
+    border-bottom-right-radius: 6px;
+}
+
+#rbtn_res:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(80, 7, 40, 200), stop:0.176 rgba(75, 8, 53, 200), stop:1 rgba(46, 12, 42, 200));
+}
+
+#btn_ac {
+    background-image: url(:/svg/ac);
+}
+
+#btn_cos {
+    background-image: url(:/svg/cos);
+}
+
+#btn_acos {
+    background-image: url(:/svg/acos);
+    border-bottom-left-radius: 6px;
+}
+
+#btn_sin {
+    background-image: url(:/svg/sin);
+}
+
+#btn_asin {
+    background-image: url(:/svg/asin);
+}
+
+#btn_tan {
+    background-image: url(:/svg/tan);
+}
+
+#btn_atan {
+    background-image: url(:/svg/atan);
+}
+
+#btn_log {
+    background-image: url(:/svg/log);
+}
+
+#btn_ln {
+    background-image: url(:/svg/ln);
+}
+
+#btn_sqrt {
+    background-image: url(:/svg/sqrt);
+}
+
+#btn_pow {
+    background-image: url(:/svg/pow);
+}
+
+#btn_mod {
+    background-image: url(:/svg/mod);
+}
+
+#btn_x {
+    background-image: url(:/svg/x);
+}
+
+#btn_e {
+    background-image: url(:/svg/e);
+}
+
+#btn_bro {
+    background-image: url(:/svg/bro);
+}
+
+#btn_brc {
+    background-image: url(:/svg/brc);
+}
+
+
+#MainWindow, #centralwidget {
+    background: #121212;
+}
+
+#plot_bg {
+    background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.9, fx:0.5, fy:0.5, stop:0 rgba(0,0,0,1), stop:0.66 rgba(2,0,36,1), stop:0.85 rgba(45,5,85,1), stop:1 rgba(137,3,147,1));
+}
+
+#centralwidget, #plot_bg {
+    border-radius: 7px;
+}
+
+#plot, QCustomPlot {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+QRadioButton {
+
+    min-height: 23px;
+    max-height: 30px;
+    min-width: 23px;
+    max-width: 30px;
+
+    width: 30px;
+    height: 23px;
+    border: none;
+    color: #121212;
+}
+
+QRadioButton:indicator {
+    min-width: 0px;
+    min-height: 0px;
+    max-width: 0px;
+    max-height: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+QRadioButton:checked {
+    color: #121212;
+    background: rgba(255, 255, 255, 10);
+    background-color: rgba(255, 255, 255, 10);
+}
+
+QRadioButton:unchecked {
+    color: #121212;
+    background: rgba(255, 255, 255, 2);
+    background-color: rgba(255, 255, 255, 2);
+}
+
+#x_mode1:unchecked {
+    image: url(:/svg/x_mode1);
+}
+
+#x_mode1:checked {
+    image: url(:/svg/x_mode1);
+}
+
+#x_mode2:unchecked {
+    image: url(:/svg/x_mode2);
+
+}
+
+#x_mode2:checked {
+    image: url(:/svg/x_mode2);
+}
+
+#inputs {
+    background-color: rgba(255,255,255,10);
+}
+
+QLineEdit {
+    max-height: 23px;
+    min-height: 23px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 14px;
+    color: #e5e5e5;
+}
+
+#x_input1 {
+    border-bottom: #ff0000 1px solid;
+}
+
+#x_label1, #x_label2 {
+    width: 38px;
+    background-color: rgba(255,255,255,10);
+}
+
+#x_label1 {
+    background-image: url(:/svg/label_mode1);
+}
+
+#x_label2 {
+    background-image: url(:/svg/label_mode2);
+}
+
+#display {
+    min-height: 63px;
+    background: transparent;
+    padding-right: 3px;
+    color: #E5E5E5;
+}

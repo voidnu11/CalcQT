@@ -1,0 +1,48 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file alias="style">qss/style.qss</file>
+    </qresource>
+    <qresource prefix="/svg">
+        <file alias="x">svg/x.svg</file>
+        <file alias="tan">svg/tan.svg</file>
+        <file alias="sub">svg/sub.svg</file>
+        <file alias="sqrt">svg/sqrt.svg</file>
+        <file alias="sin">svg/sin.svg</file>
+        <file alias="res">svg/res.svg</file>
+        <file alias="brc">svg/brc.svg</file>
+        <file alias="pow">svg/pow.svg</file>
+        <file alias="num9">svg/num9.svg</file>
+        <file alias="num8">svg/num8.svg</file>
+        <file alias="num7">svg/num7.svg</file>
+        <file alias="num6">svg/num6.svg</file>
+        <file alias="num5">svg/num5.svg</file>
+        <file alias="num4">svg/num4.svg</file>
+        <file alias="num3">svg/num3.svg</file>
+        <file alias="num2">svg/num2.svg</file>
+        <file alias="num1">svg/num1.svg</file>
+        <file alias="num0">svg/num0.svg</file>
+        <file alias="mul">svg/mul.svg</file>
+        <file alias="mod">svg/mod.svg</file>
+        <file alias="log">svg/log.svg</file>
+        <file alias="ln">svg/ln.svg</file>
+        <file alias="bro">svg/bro.svg</file>
+        <file alias="dot">svg/dot.svg</file>
+        <file alias="div">svg/div.svg</file>
+        <file alias="cos">svg/cos.svg</file>
+        <file alias="atan">svg/atan.svg</file>
+        <file alias="asin">svg/asin.svg</file>
+        <file alias="add">svg/add.svg</file>
+        <file alias="acos">svg/acos.svg</file>
+        <file alias="ac">svg/ac.svg</file>
+        <file alias="e">svg/e.svg</file>
+        <file alias="x_mode1">svg/x_mode1.svg</file>
+        <file alias="x_mode2">svg/x_mode2.svg</file>
+        <file alias="label_mode2">svg/label_mode2.svg</file>
+        <file alias="label_mode1">svg/label_mode1.svg</file>
+        <file alias="plus">svg/plus.svg</file>
+        <file alias="minus">svg/minus.svg</file>
+    </qresource>
+    <qresource prefix="/ttf">
+        <file alias="main">ttf/ShareTechMono-Regular.ttf</file>
+    </qresource>
+</RCC>
